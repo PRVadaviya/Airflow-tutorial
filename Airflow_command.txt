@@ -1,0 +1,9 @@
+uv init
+uv sync
+
+uv add apache-airflow:
+
+docker compose up -d:
+     docker compose is creating a container for Airflow and its dependencies, 
+     allowing you to run Airflow in a consistent environment without worrying about installation issues.
+
