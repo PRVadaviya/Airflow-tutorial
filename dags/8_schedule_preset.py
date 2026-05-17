@@ -4,9 +4,9 @@ from pendulum import datetime
 
 @dag(
      dag_id='schedule_preset_dag',
-     start_date= datetime(year=2026,month=5,day=1,tz="UTC"),
-     schedule= "@daily",
-     is_paused_upon_creation= False
+     # start_date= datetime(year=2026,month=5,day=1,tz="UTC"),
+     # schedule= "@daily",
+     # is_paused_upon_creation= False
 )
 def schedule_preset_dag():
      
