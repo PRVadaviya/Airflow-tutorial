@@ -7,3 +7,6 @@ docker compose up -d:
      docker compose is creating a container for Airflow and its dependencies, 
      allowing you to run Airflow in a consistent environment without worrying about installation issues.
 
+docker compose down:
+     docker compose down is used to stop and remove the containers, networks, and volumes created by docker compose up. 
+     It is a way to clean up the resources used by the Airflow environment when you are done with it.
